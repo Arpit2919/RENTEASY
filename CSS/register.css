@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* header section starts from here */
+
+
+/* top header starts from here */
+
+
+
+
+.top-header{
+    display: flex;
+    box-sizing: border-box;
+    position: sticky;
+}
+.states-select{
+    width: 200px;
+    height: 50px;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 30px;
+    
+}
+.email{
+    width: 200px;
+    height: 50px;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 30px;
+}
+.email a{
+    text-decoration: none;
+    color: black;
+    
+}
+.email i{
+    color:orangered;
+}
+.email a:hover{
+    color: orangered;
+}
+
+
+.call{
+    width: 200px;
+    height: 50px;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 30px;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+}
+.call a:hover{
+    color:orangered;
+}
+.call i{
+    color:orangered;
+}
+
+
+.message{
+    width: 200px;
+    height: 50px;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 30px;
+}
+.message a{
+    text-decoration: none;
+    color:black;
+}
+.message a:hover{
+    color: orangered;
+}
+.message i{
+    color: orangered;
+}
+.button{
+    width: 480px;
+    height: 50px;
+    text-align: right;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    padding: 10px 20px 0px 30px;
+}
+.button a{
+    /* border: 2px solid black; */
+    padding: 5px 15px 5px 15px;
+    /* background-color:orangered; */
+    text-decoration: none;
+    color:orangered;
+    /* border-radius: 5px; */
+}
+.button a:hover{
+    color:white;
+    background-color: orangered;
+}
+#button-login{
+    background-color: orangered;
+    color:white;
+}
+
+/* navigation bar stats from here */
+
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-bottom: 5px solid orangered;
+
+}
+.nav-bar ul{
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.nav-bar ul li{
+    display: inline-block;
+    padding-right: 20px;
+    /* font-weight: lighter; */
+    
+}
+
+.nav-bar ul li a{
+    /* text-align:right; */
+    text-decoration: none;
+    color: black;
+    
+    font-size: 20px;
+    font-weight: lighter;
+   
+    
+}
+.nav-bar #vehicle{
+    font-size: 30px;
+    border: 2px solid orangered;
+    padding: 5px;
+}
+#vehicle:hover{
+    color: orangered;
+    border: none;
+}
+#a-home{
+    color:orangered;
+}
+.nav-bar ul li a:hover{
+    
+    color: orangered;
+}
+.register{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    /* border: 2px solid orangered; */
+}
+.register h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.form{
+    width: 40%;
+    height: 80vh;
+    background-color: whitesmoke;
+    /* border: 2px solid orangered; */
+    float: right;
+    margin-right: 100px;
+}
+.form h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: lighter;
+    padding-top: 20px;
+    /* font-size: 20px; */
+}
+.form h3{
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+
+    
+}
+.form input{
+    width: 400px;
+    height: 35px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.submit-button{
+    height: 40px;
+    width: 450px;
+    background-color: orangered;
+    margin-left: 25px;
+    padding-left: 180px;
+    padding-top: 5px;
+}
+.submit-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.member-login p,a{
+    display: inline-block;
+}
+.member-login{
+    margin-left: 75px;
+    margin-top: 15px;
+}
+.member-login p{
+    color:black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.member-login a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
